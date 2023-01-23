@@ -49,9 +49,7 @@ namespace DirectoryTraversal
                    sb.AppendLine($"--{file.Name} - {(double)file.Length / 1024:f3}kb");
                }
            }
-
-           Console.WriteLine(sb.ToString());
-
+           
             return sb.ToString();
         }
 
